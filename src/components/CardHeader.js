@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Typography, CardContent, CardActions } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-export function CardHeader(props) {
+function CardHeader(props) {
     const useStyles = makeStyles(() => ({
         root: {
           textAlign: 'center',
@@ -33,3 +33,5 @@ export function CardHeader(props) {
     </Card>
   );
 };
+
+export default CardHeader;
