@@ -19,6 +19,15 @@ const Dashboard = (props) => {
         <Grid item xs={12}>
           <NavBar />
         </Grid>
+        <Grid item xs={12} sm={4} md={4} ls={4} xl={4}>
+          
+        </Grid>
+        <Grid item xs={12} sm={4} md={4} ls={4} xl={4}>
+          
+        </Grid>
+        <Grid item xs={12} sm={4} md={4} ls={4} xl={4}>
+          
+        </Grid>
       </Grid>
     </div>
   );
